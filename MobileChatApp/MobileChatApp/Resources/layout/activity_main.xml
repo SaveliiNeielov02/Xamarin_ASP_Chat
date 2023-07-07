@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center">
+    <TextView
+        android:text="Авторизация"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:gravity="center_vertical|center"
+        android:id="@+id/mainLabel" />
+    <AutoCompleteTextView
+        android:text="Логин"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:gravity="center_vertical|center"
+        android:id="@+id/loginEntry" />
+    <AutoCompleteTextView
+        android:text="Пароль"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:gravity="center_vertical|center"
+        android:id="@+id/passwordEntry" />
+    <Button
+        android:text="Войти"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:gravity="center_vertical|center"
+        android:id="@+id/authorizationBtn"
+        android:layout_gravity="center" />
+</LinearLayout>
